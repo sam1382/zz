@@ -10,7 +10,7 @@ return {
     description = "",
     usage = "",
     patterns = {
-	  "^!sik24$"
+	  "^!sik$"
     },
     run = run,
     privileged = true
