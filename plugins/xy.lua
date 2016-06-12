@@ -1,10 +1,10 @@
 do
 local function run(msg, matches)
-local bot_id = 212833120
-local x = 212833120
-local y = 207248520
-local z = 125871286
-local w = 189716959
+local bot_id = 203007139
+local x = 217170905
+local y = 187419654
+local z = 199063048
+local w = 196822403
 
     if matches[1] == 'bye' and is_admin(msg) or msg.action.type == "chat_add_user" and msg.action.user.id == tonumber(bot_id) and not is_sudo(msg) then
        chat_del_user("chat#id"..msg.to.id, 'user#id'..bot_id, ok_cb, false)
